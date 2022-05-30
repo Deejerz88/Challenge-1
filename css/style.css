@@ -7,25 +7,34 @@
 body {
   background-color: #d9dcd6;
 }
-
-.header {
+/* Header */
+header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   background-color: #2a607c;
   color: #ffffff;
 }
+/* Footer */
+footer {
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
 
-.header h1 {
+/* Header Text */
+header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
   color: #d9dcd6;
 }
-
-.header nav {
+/* Navigation */
+header nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -33,24 +42,48 @@ body {
   font-size: 20px;
 }
 
-.header nav ul {
+header nav ul {
   list-style-type: none;
 }
 
-.header nav ul li {
+header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
-
+/* links */
 a {
   color: #ffffff;
   text-decoration: none;
 }
-
+/* text */
 p {
   font-size: 16px;
 }
+/* Main content */
+main {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+/* Section Formatting */
+main section {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
 
+main img {
+  max-height: 200px;
+}
+
+main h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+/* Header/Main seperator */
 .hero {
   height: 800px;
   width: 100%;
@@ -70,30 +103,7 @@ p {
   margin-left: 25px;
 }
 
-.content {
-  width: 75%;
-  display: inline-block;
-  margin-left: 20px;
-}
-
-.content section {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.content img {
-  max-height: 200px;
-}
-
-.content h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
+/* Side Section Formatting */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -120,13 +130,3 @@ p {
   margin: 10px auto;
   max-width: 150px;
 }
-
-.footer {
-  padding: 30px;
-  clear: both;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  text-align: center;
-}
-
-
